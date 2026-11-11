@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/solutions/vanilla-javascript---project-tracking-intro-component-ZGA-FoRH67)
+- Live Site URL: [project-tracking-intro-component-henna.vercel.app](https://project-tracking-intro-component-henna.vercel.app/)
 
 ## My process
 
