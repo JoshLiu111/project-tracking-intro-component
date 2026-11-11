@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Project tracking intro component</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Barlow:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="#" aria-label="Home">
+        <img src="./images/logo.svg" alt="" width="32" height="32" />
+      </a>
+
+      <button
+        class="nav-toggle"
+        id="nav-toggle"
+        type="button"
+        aria-controls="primary-nav"
+        aria-expanded="false"
+        aria-label="Open menu"
+      >
+        <img
+          class="icon-open"
+          src="./images/icon-hamburger.svg"
+          alt=""
+          width="24"
+          height="16"
+        />
+        <img
+          class="icon-close"
+          src="./images/icon-close.svg"
+          alt=""
+          width="20"
+          height="20"
+        />
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+        <a class="nav-login" href="#">Login</a>
+      </nav>
+    </header>
+
+    <main class="hero">
+      <div class="hero__media">
+        <img
+          src="./images/illustration-devices.svg"
+          alt="Monograph dashboard shown on a phone and a laptop"
+          width="960"
+          height="464"
+        />
+      </div>
+
+      <div class="hero__content">
+        <p class="eyebrow">
+          <span class="badge">New</span> Monograph Dashboard
+        </p>
+        <h1>Powerful insights into your team</h1>
+        <p class="lead">Project planning and time tracking for agile teams</p>
+        <div class="cta">
+          <a class="btn" href="#">Schedule a demo</a>
+          <span class="cta__note">to see a live preview</span>
+        </div>
+      </div>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Josh</a>.
+    </footer>
+  </body>
+</html>
